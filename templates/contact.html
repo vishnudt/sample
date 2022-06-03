@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{%load static%}
+{% block content %}
+<body>
+
+        <center><h3>Fill the form</h3></center>
+       <center><form>
+        <input type="text" placeholder="First_name" style="width:400px;"><br><br>
+           <input type="text" placeholder="Last_tname" style="width:400px;"><br><br>
+           <input type="email" placeholder="E-mail" style="width:400px;"><br><br>
+           <input type="text" placeholder="Comment" style="width:400px;"><br><br>
+           <input type="button" value="submit" style="color:red;">
+       </form></center>
+     <center>
+        <h3 style="color:red;">
+            GOOGLE MAP
+        </h3>
+
+        <div>
+            <!-- Google Map Copied Code -->
+            <iframe src=
+"https://www.google.com/maps/embed?pb=10.717222465770876, 76.47331131299285"
+                    width="400"
+                    height="300"
+                    frameborder="0"
+                    style="border:0;"
+                    aria-hidden="false"
+                    tabindex="0">
+            </iframe>
+        </div>
+    </center><br><br>
+        <center><div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">connect with us</h5><br><br>
+      <label>For support for any questions:</label>
+    <p class="card-text">E-mail : ourcompany@gmail.com</p>
+      <p class="card-text">Phone : 98 54 57 47 43</p>
+      <p class="card-text">Site : <a href="">www.ourcompany.com</a> </p>
+
+
+  </div>
+</div></center>&nbsp;&nbsp;&nbsp;
+
+{% endblock %}
+
+</body>
